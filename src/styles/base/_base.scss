@@ -1,0 +1,19 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-style: italic;
+    font-size: $m-size;
+    // background-color: $dark-blue;
+}
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+.is-active{
+    font-weight: bolt;
+    margin: 10px;
+}
