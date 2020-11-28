@@ -13,22 +13,22 @@ import 'react-dates/lib/css/_datepicker.css'
 
 const store=configureStore();
 
-// store.dispatch(addExpense({description:'Water Bill',amount:100}))
+// // store.dispatch(addExpense({description:'Water Bill',amount:100}))
 
-// store.dispatch(addExpense({description:'Gas Bill',amount:700,createAt:100}))
+// // store.dispatch(addExpense({description:'Gas Bill',amount:700,createAt:100}))
 
-// store.dispatch(addExpense({description:'Electric Bill',amount:300}))
+// // store.dispatch(addExpense({description:'Electric Bill',amount:300}))
 
-// store.dispatch(addExpense({description:'Rent ',amount:6000,createAt:1000}))
+// // store.dispatch(addExpense({description:'Rent ',amount:6000,createAt:1000}))
 
-// store.dispatch(addExpense({description:'School fees',amount:500,createAt:300}))
+// // store.dispatch(addExpense({description:'School fees',amount:500,createAt:300}))
 
 
 
-const state=store.getState();
-const visibleExpenses=getVisibleExpenses(state.expenses,state.filters);
-console.log(visibleExpenses);
-
+// const state=store.getState();
+// const visibleExpenses=getVisibleExpenses(state.expenses,state.filters);
+// console.log(visibleExpenses);
+console.log("test")
 const jsx=(
     <Provider store={store}>
        <AppRouter/>
